@@ -97,7 +97,7 @@ void Territory::setName(const string& territoryName) {
 
 void Territory::setOwner(Player* newOwner){
     owner = newOwner;
-} 
+}
 
 void Territory::setArmies(int newArmies){
     *armies = newArmies;

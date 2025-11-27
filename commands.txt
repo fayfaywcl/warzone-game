@@ -1,1 +1,1 @@
-tournament -M Earth.map,Alberta.map -P Cheater, Neutral, Aggressive -G 5 -D 50
+tournament -M Earth.map,CTwo.map,CThree.map -P Neutral,Aggressive -G 5 -D 50

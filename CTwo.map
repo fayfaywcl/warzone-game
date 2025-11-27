@@ -1,0 +1,19 @@
+[Map]
+author=Custom Map
+image= CTwo.bmp
+wrap=no
+scroll=none
+warn=yes
+
+[Continents]
+North=5
+South=3
+
+[Territories]
+A1,100,100,North,A2,B1
+A2,160,100,North,A1,A3,B2
+A3,220,100,North,A2,B3
+
+B1,100,180,South,A1,B2
+B2,160,180,South,A2,B1,B3
+B3,220,180,South,A3,B2

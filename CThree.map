@@ -1,0 +1,25 @@
+[Map]
+author=Custom Map
+image=CThree.bmp
+wrap=no
+scroll=horizontal
+warn=yes
+
+[Continents]
+Northland=5
+Midrealm=4
+Southvale=3
+
+[Territories]
+A1,50,50,Northland,A2,B1
+A2,100,50,Northland,A1,A3,B2
+A3,150,50,Northland,A2,B3
+
+B1,75,100,Midrealm,A1,B2,C1
+B2,125,100,Midrealm,A2,B1,B3,C2
+B3,150,125,Midrealm,A3,B2,C3
+B4,200,125,Midrealm,C3,C2
+
+C1,100,200,Southvale,B1,C2
+C2,150,200,Southvale,B2,C1,C3,B4
+C3,200,200,Southvale,C2,B3,B4
